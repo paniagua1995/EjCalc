@@ -18,12 +18,13 @@ def Sumar():
 
     return
 
-def Restar():
-    """Esta funcion resta los argumentos de entrada.
-    Quien la programe describe como son los argumentos de entrada
+def Restar(a,b):
+    """Esta funcion entrega el valor obtenido al restar el argumento b al a.
+    
     """
+    c = a-b;
 
-    return
+    return c
 
 def Multiplicar():
     """Esta funcion multiplica los argumentos de entrada.
